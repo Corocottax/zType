@@ -1,0 +1,23 @@
+.vida, .negro {
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.negro {
+    width: 50px;
+    height: 50px;
+    z-index: 99999999999;
+    background-color: var(--background);
+     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+.dead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    width: 100%;
+}

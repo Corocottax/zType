@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --background: black;
+  --text: white;
+}
+
+p, label, a, h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+}
+
+body {
+  overflow: hidden;
+  height: 100svh;
+  background-color: var(--background);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+span {
+  color: orange;
+}
